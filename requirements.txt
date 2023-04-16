@@ -3,5 +3,6 @@ numpy
 matplotlib
 seaborn
 category-encoders
+datetime
 ipykernel
 flask
