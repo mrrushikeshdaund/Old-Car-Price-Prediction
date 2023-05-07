@@ -22,11 +22,11 @@ class CustomException(Exception):
         return self.error_message    
     
 
-if __name__=="__main__":
+"""if __name__=="__main__":
     logging.info("Logging has started")
     try:
         a=1/0
     except Exception as e:
         logging.info('Divide by zero') 
         raise CustomException(e,sys)
-        
+        """
