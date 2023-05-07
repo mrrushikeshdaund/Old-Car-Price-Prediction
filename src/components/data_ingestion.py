@@ -47,10 +47,10 @@ class DataIngestion:
             raise CustomException(e,sys)
         
 
-if __name__=='__main__':
+"""if __name__=='__main__':
     obj = DataIngestion()
     train_data_path , test_data_path = obj.initiate_data_ingestion()
     print(" Data Ingestion Done Sucessfully ")
-
+"""
 
 
